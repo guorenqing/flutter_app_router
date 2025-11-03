@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'route_types.dart';
 import 'route_interceptor.dart';
-import 'route_types.dart';
 
 /// 路由配置抽象类，由业务方实现
 abstract class RouterConfigurator {

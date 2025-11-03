@@ -175,7 +175,7 @@ class AppRouter {
       return RouteResult.failure(error);
     } finally {
       // _routeCallContexts.remove(requestId);
-      // _cleanupExpiredContexts(); // 可选清理
+      _cleanupExpiredContexts(); // 可选清理
     }
   }
 
