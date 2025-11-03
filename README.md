@@ -17,7 +17,7 @@
 
 ```yaml
 dependencies:
-  flutter_app_router: ^1.0.0  # 直接指定版本号
+  flutter_app_router: ^0.0.1  # 直接指定版本号
 ```
 
 ## 快速开始
