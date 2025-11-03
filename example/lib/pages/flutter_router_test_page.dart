@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:flutter_app_router/flutter_app_router.dart';
+import 'package:uni_router/uni_router.dart';
 
 class FlutterRouterTestPage extends StatelessWidget {
   const FlutterRouterTestPage({super.key});

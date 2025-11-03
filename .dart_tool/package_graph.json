@@ -1,10 +1,10 @@
 {
   "roots": [
-    "flutter_app_router"
+    "uni_router"
   ],
   "packages": [
     {
-      "name": "flutter_app_router",
+      "name": "uni_router",
       "version": "0.0.1",
       "dependencies": [
         "flutter",

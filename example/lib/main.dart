@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_router/flutter_app_router.dart';
+import 'package:uni_router/uni_router.dart';
 import 'package:get/get.dart';
 import 'pages/home_page.dart';
 import 'pages/login/services/user_manager.dart';

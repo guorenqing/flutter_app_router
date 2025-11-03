@@ -7,7 +7,7 @@ environment:
 
 dependencies:
   # 依赖父级目录的包（使用 path）
-  flutter_app_router:
+  uni_router:
     path: ../
 
   # 其他依赖（如果是 Flutter 项目）

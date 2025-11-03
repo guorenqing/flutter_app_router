@@ -1,7 +1,7 @@
-name: flutter_app_router
+name: uni_router
 description: "一个基于 Flutter 和 GetX 的路由管理框架，支持多类型路由管理，完整路由拦截机制，完整整合了页面跳转和功能调用，统一路由方式完成实现。"
 version: 0.0.1
-homepage: https://github.com/guorenqing/flutter_app_router
+homepage: https://github.com/guorenqing/uni_router
 
 environment:
   sdk: ^3.9.2

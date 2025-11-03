@@ -1,6 +1,6 @@
 // 业务方实现配置类
 import 'package:get/get.dart';
-import 'package:flutter_app_router/flutter_app_router.dart';
+import 'package:uni_router/uni_router.dart';
 import 'pages/login/services/user_manager.dart';
 import 'pages/login/views/login_page.dart';
 import 'pages/createStudent/view/create_student_page.dart';

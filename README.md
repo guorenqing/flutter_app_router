@@ -1,4 +1,4 @@
-# AppRouter: 基于Flutter和GetX的路由管理框架
+# uni_router: 基于Flutter和GetX的路由管理框架
 
 一个功能强大的Flutter路由管理解决方案，基于GetX框架构建，支持多类型路由管理、完整的拦截机制和统一的路由调用方式，帮助开发者开发者快速构建灵活高效的路由系统。
 
@@ -17,7 +17,7 @@
 
 ```yaml
 dependencies:
-  flutter_app_router: ^0.0.1  # 直接指定版本号
+   uni_router: ^0.0.1  # 直接指定版本号
 ```
 
 ## 快速开始
@@ -29,10 +29,7 @@ dependencies:
 ```dart
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:flutter_getx_router/flutter_getx_router.dart';
-
-// 导入你的路由配置
-import 'router_config.dart';
+import 'package:uni_router/uni_router.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -66,7 +63,7 @@ class MyApp extends StatelessWidget {
 实现`RouterConfigurator`接口定义你的路由规则：
 
 ```dart
-import 'package:flutter_getx_router/flutter_getx_router.dart';
+import 'package:uni_router/uni_router.dart';
 import 'pages/home_page.dart';
 import 'pages/detail_page.dart';
 import 'pages/webview_page.dart';

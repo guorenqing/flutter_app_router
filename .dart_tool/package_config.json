@@ -170,7 +170,7 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "flutter_app_router",
+      "name": "uni_router",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.9"
